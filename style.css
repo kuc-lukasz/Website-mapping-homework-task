@@ -1,0 +1,148 @@
+
+
+
+body {
+    background-color: rgb(228, 228, 228);
+    box-sizing: border-box;
+    
+    padding: 30px;
+    width: 1280px;
+    margin: auto;
+    
+}
+
+#header {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+}
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+}
+.image1 {
+    border-radius: 50%;
+    margin-right: 25px;
+}
+li h2{
+    color: grey;
+    font-weight: 300;
+    padding-top: -15px;
+    margin-top: -18px;
+}
+.box{
+    border: 10px solid grey;
+    margin-right: -200px;
+}
+
+.firsttable {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin: 
+    padding: 20px;
+    box-shadow: 5px 10px 10px gray;
+}
+.image2 {
+    margin: 10px;
+    padding-right: 10px;
+}
+
+button {
+    margin:10px;
+    padding: 10px;
+    border: 1px solid rgb(98, 96, 96);
+    background-color: rgb(98, 96, 96);
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    
+}
+
+.buttonstwo {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    
+}
+.button-one{
+    background-color: white;
+    box-shadow: 5px 10px 10px gray;
+    padding: 10px;
+    margin-right: 30px;
+    text-align: center;
+    
+
+
+
+}
+.button-two{
+    background-color: white;
+    box-shadow: 5px 10px 10px gray;
+    padding: 10px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.buy-courses {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    padding-bottom: 50px;
+
+}
+
+.courses {
+    background-color: white;
+    box-shadow: 5px 10px 10px gray;
+    padding: 10px;
+    text-align: center;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+   align-items:  center;
+   width: 400px;
+
+}
+
+.img3 {
+    height: 100px;
+    width: 100px;
+}
+
+#but-gr {
+    margin:10px;
+    padding: 10px;
+    border: 1px solid rgb(79, 209, 79);
+    background-color: rgb(79, 209, 79);
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+
+}
+
+#foot {
+
+    background-color: gray;
+   
+  
+   width: 100%;
+   height: 200px;
+   text-align: center;
+   padding-top: 40px;
+   color: white;
+
+
+}
+
+footer p{
+padding:20px;
+   
+}
